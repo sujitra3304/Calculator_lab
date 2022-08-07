@@ -29,7 +29,7 @@ while True:
 
     # A place to store the return value of the math function we call,
     # to give us one clear place where that result is printed.
-    result = None
+    result = 0
 
     if not num1.isdigit() or not num2.isdigit():
         print("Those aren't numbers!")
